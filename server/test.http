@@ -1,0 +1,15 @@
+@url=http://localhost:3030/ssr
+
+GET {{url}}/api/login.json?secret=abcd
+
+###
+GET {{url}}/api/logout.json?secret=abcd
+
+###
+GET {{url}}/api/isLogin.json?secret=abcd
+
+###
+GET {{url}}/api/translations.json?secret=abcd
+
+###
+GET {{url}}/api/news.json?secret=abcd
